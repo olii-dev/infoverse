@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>infoverse</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+  <header class="header">
+    <h1 class="logo">infoverse</h1>
+    <div class="nav">
+      <a href="about.html">
+        <button class="nav-button about">about</button>
+      </a>      
+        <button class="nav-button facts" id="facts-button">facts</button>
+      </div>      
+  </header>
+  <main class="main">
+    <!-- Fact Card Section -->
+    <div class="fact-card" id="fact-card">
+      <h2 class="fact-title">did you know?</h2>
+      <p class="fact-text" id="fact-text">the eiffel tower can grow more than 6 inches during the summer due to heat expansion!</p>
+      <button class="next-fact" id="next-fact">next fact</button>
+    </div>
+
+    <!-- Categories Section (Initially Hidden) -->
+    <div class="categories" id="categories">
+      <h2 class="categories-title">Choose a Category</h2>
+      <button class="category-button" id="category-science">Science</button>
+      <button class="category-button" id="category-history">History</button>
+      <button class="category-button" id="category-technology">Technology</button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
