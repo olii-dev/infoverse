@@ -205,20 +205,6 @@
         background-color: #fff;
         color: #000;
       }
-
-      .nav-button.about {
-        position: absolute;
-        top: 0.75rem;
-        right: 1rem;
-        padding: 0.5rem 1rem;
-        font-size: 1rem;
-        background-color: #000;
-        color: #fff;
-        border-radius: 8px;
-        text-align: center;
-        margin-bottom: 0;
-        width: auto;
-      }
     
       .nav-button.facts:hover {
         background-color: #fff;
@@ -251,6 +237,7 @@
     transition: all 0.3s ease;
     letter-spacing: 1px;
     margin-bottom: 1rem;
+    text-decoration: none;
   }
   
   .category-button:hover {
@@ -258,66 +245,3 @@
     border-color: #76c7c0;
     color: #000;
   }
-  
-  .about-section {
-    display: none;
-    padding: 2rem;
-    text-align: center;
-    background: #000;
-    border-radius: 12px;
-    box-shadow: 0 8px 24px rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(8px);
-    margin-top: 2rem;
-  }
-  
-  .about-button {
-    width: auto;
-    padding: 1rem 2rem;
-    font-size: 1.25rem;
-    background-color: #000;
-    color: #fff;
-    border-radius: 8px;
-    text-align: center;
-    margin-bottom: 1rem;
-  }
-  
-  .about-button:hover {
-    background-color: #fff;
-    color: #000;
-  }
-  
-  .faq-item {
-    margin-bottom: 1.5rem;
-  }
-  
-  .faq-question p {
-    font-size: 1.25rem;
-    font-weight: 600;
-    text-transform: lowercase;
-  }
-  
-  .faq-answer p {
-    font-size: 1.125rem;
-    margin-top: 0.5rem;
-    text-transform: lowercase;
-  }
-  
-  .about-section .faq-item {
-    margin-bottom: 1.5rem;
-  }
-  
-  .faq-question {
-    margin-bottom: 0.5rem;
-  }
-  
-  .faq-answer {
-    display: none;
-  }
-  
-  .faq-question:hover + .faq-answer {
-    display: block;
-  }
-  
-  .about-section.open {
-    display: block;
-  }  
