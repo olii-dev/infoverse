@@ -6,9 +6,17 @@ const facts = [
     "the first computer virus was created in 1971 and was called 'Creeper'",
     "domain name registration was free until 1995",
     "the first alarm clock could only ring at one time, 4am",
-    "CAPTCHA stands for: Completely Automated Public Turing test to tell Computers and Humans Apart.",
+    "CAPTCHA stands for: Completely Automated Public Turing test to tell Computers and Humans Apart",
     "over 5 billion snaps are sent on Snapchat every day",
     "more than 16% of Facebook accounts are fake or duplicates",
+    "about 319.6 billion emails are sent and received each day",
+    "Bill Gates' house was designed using a Mac computer",
+    "the first ever VCR was the size of a piano",
+    "the first domain name registered was symbolics.com",
+    "the first ever text message was sent on the 3rd of December in 1992, it said 'Merry Christmas'",
+    "the first ever webcam was used to watch a coffee pot",
+    "the most popular search query on Bing is 'Google'",
+    "the first search engine was called Archie",
   ];  
   
   const factText = document.getElementById("fact-text");

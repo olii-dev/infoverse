@@ -1,9 +1,9 @@
 const facts = [
-    "the eiffel tower can grow more than 6 inches during the summer due to heat expansion!",
-    "honey never spoils. archaeologists have found pots of honey in ancient egyptian tombs that are over 3000 years old!",
-    "octopuses have three hearts, and two of them stop beating when they swim.",
-    "bananas are berries, but strawberries are not.",
-    "a bolt of lightning contains enough energy to toast 100,000 slices of bread!"
+    "there are loads of facts here, about almost everything!",
+    "we have so many categories, to change category click the 'facts' button",
+    "have fun learning new facts!",
+    "to get started, click the facts button and choose a category",
+    "every fact has been manually entered and verified",
   ];
   
   const factText = document.getElementById("fact-text");
