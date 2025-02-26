@@ -17,6 +17,18 @@ const facts = [
     "the first ever webcam was used to watch a coffee pot",
     "the most popular search query on Bing is 'Google'",
     "the first search engine was called Archie",
+    "the Firefox logo isn't a fox, it's a red panda",
+    "the first ever website is still online, it's at info.cern.ch",
+    "the first ever banner ad appeared on the internet in 1994, it was for AT&T",
+    "there are about 3.5 billion Google Searches per day",
+    "Apple were originally designing an apple shaped flip phone before the first iPhone",
+    "the first ever YouTube video was uploaded on April 23, 2005",
+    "the first ever tweet was sent on March 21, 2006, it read 'just setting up my twttr'",
+    "Nokia used to sell toilet paper",
+    "every iPhone advertisement has the time set to 9:41",
+    "The most-viewed video on YouTube is 'Baby Shark Dance', It has over 15 billion views",
+    "The first computer was the 167 meters squared (1800 feet squared)",
+    "The first 1GB Hard Drive was the size of a refrigerator and weighed more than 500 pounds",
   ];  
   
   const factText = document.getElementById("fact-text");
